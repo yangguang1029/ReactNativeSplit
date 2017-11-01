@@ -1,0 +1,5 @@
+
+__d(function(e,t,r,n){Object.defineProperty(n,"__esModule",{value:!0});var l=t(12),o=babelHelpers.interopRequireDefault(l),i=t(26),a=function(e){function t(){return babelHelpers.classCallCheck(this,t),babelHelpers.possibleConstructorReturn(this,(t.__proto__||Object.getPrototypeOf(t)).apply(this,arguments))}return babelHelpers.inherits(t,e),babelHelpers.createClass(t,[{key:"render",value:function(){return o.default.createElement(i.View,{style:c.container},o.default.createElement(i.Text,{style:c.welcome},"Welcome to Bundle A"))}}]),t}(l.Component);n.default=a;var c=i.StyleSheet.create({container:{flex:1,justifyContent:"center",alignItems:"center",backgroundColor:"#F5FCFF"},welcome:{fontSize:20,textAlign:"center",margin:10},instructions:{textAlign:"center",color:"#333333",marginBottom:5}});i.AppRegistry.registerComponent("suba",function(){return a})},10000);
+console.log("fuck yangg suba bundle");
+;require(57);
+;require(10000);
