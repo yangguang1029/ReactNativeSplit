@@ -8,9 +8,12 @@
  */
 
 #import <UIKit/UIKit.h>
+#import <React/RCTBridge.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
+
+@property (nonatomic, retain) RCTBridge *bridge;
 
 @end
